@@ -1,0 +1,20 @@
+{
+    "name": "przeslijmi/ad-xls-plug",
+    "version": "v1.2.1",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHPOffice/PhpSpreadsheet"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": ">=1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPOffice\\PhpSpreadsheet\\": "vendor/phpoffice/phpspreadsheet/src/",
+            "Przeslijmi\\AgileDataXlsPlug\\": "src/"
+        }
+    }
+}
